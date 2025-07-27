@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #000000, #002244);
+  color: white;
+  min-height: 100vh;
+}
+
+.chatbot-container {
+  padding: 120px 20px 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo-top-center {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo-neon {
+  height: 200px;
+  filter: drop-shadow(0 0 10px #0ff) drop-shadow(0 0 20px #00f);
+  cursor: pointer;
+}
+
+.heading {
+  font-size: 2.5rem;
+  color: #00ccff;
+  margin-top: 150px;
+}
+
+.intro {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.chat-area {
+  max-height: 300px;
+  overflow-y: auto;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 15px;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.message.user {
+  background: #0056b3;
+  text-align: right;
+}
+
+.message.bot {
+  background: #0a0a0a;
+  text-align: left;
+  border-left: 3px solid #00ccff;
+}
+
+.input-section {
+  margin: 20px auto;
+}
+
+.input-box {
+  padding: 12px 20px;
+  width: 80%;
+  border-radius: 25px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.suggestion-buttons {
+  margin-top: 20px;
+}
+
+.suggestion-buttons button {
+  margin: 10px;
+  padding: 12px 24px;
+  border: none;
+  background: transparent;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #00ccff;
+  border: 2px solid #00ccff;
+  transition: all 0.3s ease;
+}
+
+.suggestion-buttons button:hover {
+  background: #00ccff;
+  color: black;
+  box-shadow: 0 0 20px #00ccff;
+}
+
+.book-suggestions {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.book-card {
+  background: #111;
+  border: 1px solid #00ccff;
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+}
+
+.preview-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: #00ccff;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.preview-btn:hover {
+  background: #0099cc;
+}
